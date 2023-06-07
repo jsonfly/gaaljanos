@@ -105,4 +105,12 @@ hr.line2 {
   .content {
     padding: 20px;
   }
+
+  section {
+    padding: 10px;
+  }
+
+  .text {
+    padding: 10px;
+  }
 }
