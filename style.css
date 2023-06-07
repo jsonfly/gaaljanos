@@ -26,6 +26,10 @@ section {
   padding: 0 20%;
 }
 
+h2 {
+    color: #333;
+}
+
 /* Section content styles */
 .content {
   padding: 40px;
