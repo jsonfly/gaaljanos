@@ -23,12 +23,18 @@ section {
   position: relative;
   color: #fff;
   overflow: hidden;
+  padding: 0 20%;
 }
 
 /* Section content styles */
 .content {
   padding: 40px;
   text-align: center;
+  max-width: none;
+}
+
+.row {
+    margin: 50px auto;
 }
 
 /* Section 1 styles */
@@ -69,6 +75,29 @@ body {
 hr.line {
     width: 100px;
     margin: 15px auto;
+}
+
+hr.line2 {
+    width: 25%;
+    margin: 15px auto;
+}
+
+.intro img {
+    max-height: 400px;
+    max-width: 100%;
+}
+
+.intro .text {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: justify;
+}
+
+.intro .image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 /* Responsive styles */
