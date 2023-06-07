@@ -1,0 +1,80 @@
+/* Reset default styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Logo styles */
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Main content styles */
+main {
+  
+}
+
+/* Section styles */
+section {
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Section content styles */
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+/* Section 1 styles */
+.section1 {
+  background-color: #cc6b8c;
+}
+
+/* Section 2 styles */
+.section2 {
+  background-color: #6ab3cb
+}
+
+/* Section 3 styles */
+.section3 {
+  background-color: #fff;
+  color:#333;
+}
+
+/* Section 4 styles */
+.section4 {
+  background-color: #8d6acb;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Font styles */
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #333;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+}
