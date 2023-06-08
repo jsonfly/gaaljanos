@@ -1,0 +1,72 @@
+.module {
+    position: relative;
+  }
+
+  .module .collapse, .module .collapsing {
+    height: 7rem;
+  }
+
+  .module .collapse {
+    display: block;
+    overflow: hidden;
+  }
+
+  .module .collapse.show {
+    height: auto;
+  }
+
+
+  .read-more {
+    opacity: 1;
+    transition: all .3s linear;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    background-image: linear-gradient(to bottom, transparent 60%, white);
+  }
+
+  .read-more:not(.collapsed) {
+    opacity: 0;
+
+  }
+
+  .module {
+    position: relative;
+  }
+
+  .module .collapse, .module .collapsing {
+    height: 200px;
+  }
+
+  .module .collapse {
+    display: block;
+    overflow: hidden;
+  }
+
+  .module .collapse.show {
+    height: auto;
+  }
+
+
+  .read-more {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    background-image: linear-gradient(to bottom, transparent 60%, white);
+
+    opacity: 1;
+    transition: all .3s linear;
+  }
+
+  .read-more:not(.collapsed) {
+    opacity: 0;
+    visibility: hidden;
+  }

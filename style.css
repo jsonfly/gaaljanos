@@ -28,6 +28,13 @@ section {
 
 h2 {
     color: #333;
+    margin-bottom: 40px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 /* Section content styles */
@@ -43,12 +50,12 @@ h2 {
 
 /* Section 1 styles */
 .section1 {
-  background-color: #cc6b8c;
+  background-color: rgb(161, 105, 48);
 }
 
 /* Section 2 styles */
 .section2 {
-  background-color: #6ab3cb
+  background-color: rgb(138, 119, 76);
 }
 
 /* Section 3 styles */
@@ -59,7 +66,24 @@ h2 {
 
 /* Section 4 styles */
 .section4 {
-  background-color: #8d6acb;
+  background-color: rgb(161, 105, 48);
+}
+
+.section4 .read-more {
+    background-image: linear-gradient(to bottom, transparent 60%, rgb(161, 105, 48));
+}
+
+.section5 {
+    background-color: #fff;
+    color:#333;
+  }
+
+.section6 {
+    background-color: rgb(138, 119, 76);
+}
+
+.section6 .read-more {
+    background-image: linear-gradient(to bottom, transparent 60%, rgb(138, 119, 76));
 }
 
 /* Footer styles */
@@ -102,6 +126,10 @@ hr.line2 {
     display:flex;
     justify-content:center;
     align-items:center;
+}
+
+.list p {
+    font-size: 12px;
 }
 
 /* Responsive styles */
