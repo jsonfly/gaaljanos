@@ -160,6 +160,10 @@ hr.line2 {
     font-size: 12px;
 }
 
+.contact-img {
+    width: 400px;
+}
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .content {
@@ -187,5 +191,10 @@ hr.line2 {
   section.mobile-gallery img {
     max-width: 80%;
     margin: 20px;
+  }
+
+  .contact-img {
+    width: 300px;
+    margin: 0 auto 40px auto;
   }
 }
