@@ -66,6 +66,16 @@ h4 {
   text-align: center;
 }
 
+/* Make the Holnap Kiadó link visible on the brown background */
+.section1-2 .content a[href*="holnapkiado"] {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.section1-2 .content a[href*="holnapkiado"]:hover {
+  color: #fff3d9;
+}
+
 .row {
     margin: 50px auto;
 }
