@@ -58,6 +58,14 @@ h4 {
   max-width: none;
 }
 
+/* section1-2 overrides: keep heading centered but body text left-aligned */
+.section1-2 .content {
+  text-align: left;
+}
+.section1-2 h2 {
+  text-align: center;
+}
+
 .row {
     margin: 50px auto;
 }
@@ -68,7 +76,7 @@ h4 {
 }
 
 /* Section 2 styles */
-.section2 {
+.section1-2, .section2 {
   background-color: rgb(161, 105, 48);
 }
 
@@ -87,7 +95,7 @@ h4 {
     background-image: linear-gradient(to bottom, transparent 60%, rgb(161, 105, 48));
 }
 
-.section5, .section7, .section9 {
+.section1-3, .section5, .section7, .section9 {
     background-color: #fff;
     color:#333;
   }
